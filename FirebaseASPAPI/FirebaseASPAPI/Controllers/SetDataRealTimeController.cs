@@ -22,7 +22,8 @@ namespace FirebaseASPAPI.Controllers
         IFirebaseConfig config = new FirebaseConfig
         {
             AuthSecret = "",
-            BasePath = "https://annguyenhoctap.firebaseio.com/"
+            //BasePath = "https://annguyenhoctap.firebaseio.com/"
+            BasePath = "https://cloud-nfc-proj.firebaseio.com/"
         };
 
         IFirebaseClient client;
@@ -30,12 +31,27 @@ namespace FirebaseASPAPI.Controllers
         {
             return View();
         }
-        public async Task<ActionResult> SetDataFirebase(string uidTag ,string thoiGian, string soPhutMuon)
+        public async Task<ActionResult> SetDataFirebase(string uidTag)
         {
+            DateTimeOffset dateTimeOffset = new DateTimeOffset(DateTime.Now);
+            DateTimeOffset gioCurrent = dateTimeOffset.ToOffset(TimeSpan.FromHours(7));
+
+            string soPhutMuon = "";
             client = new FireSharp.FirebaseClient(config);
             if (client != null)
             {
-                PushResponse response = client.Push(pathDuLieuDiemDanh + uidTag+"/"+DateTime.Now.ToString("yyyy-MM-dd"), thoiGian + ","+soPhutMuon);
+                if(int.Parse(gioCurrent.ToString("HH")) >= 8 && int.Parse(gioCurrent.ToString("HH")) < 12)
+                {
+                    soPhutMuon = Convert.ToString((int.Parse(gioCurrent.ToString("HH")) * 60 + int.Parse(gioCurrent.ToString("mm"))) - (8*60 + 30));
+                }else if (int.Parse(gioCurrent.ToString("HH")) >= 13 && int.Parse(gioCurrent.ToString("HH")) < 18)
+                {
+                    soPhutMuon = Convert.ToString((int.Parse(gioCurrent.ToString("HH")) * 60 + int.Parse(gioCurrent.ToString("mm"))) - (13 * 60 + 30));
+                }
+                else
+                {
+                    soPhutMuon = "0";
+                }
+                PushResponse response = client.Push(pathDuLieuDiemDanh + uidTag+"/"+ gioCurrent.ToString("yyyy-MM-dd"), gioCurrent.ToString("HH:mm:ss") + ","+soPhutMuon);
                 if (String.IsNullOrEmpty(response.Result.name.ToString()))
                 {
                     ViewBag.UIDTag = "INSERT FAILED";
