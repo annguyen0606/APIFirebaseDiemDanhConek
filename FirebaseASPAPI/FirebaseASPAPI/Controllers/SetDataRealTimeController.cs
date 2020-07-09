@@ -18,6 +18,7 @@ namespace FirebaseASPAPI.Controllers
         // GET: SetDataRealTime
         String pathDuLieuDiemDanh = "Conek/DuLieuDiemDanh/";
         String pathDanhSachNhanVien = "Conek/DanhSachNhanVien/";
+        String pathActiveSim = "ActiveSim/Active/";
         //String pathServer = "https://annguyenhoctap.firebaseio.com/";
         IFirebaseConfig config = new FirebaseConfig
         {
@@ -65,11 +66,35 @@ namespace FirebaseASPAPI.Controllers
             {
                 ViewBag.UIDTag = "CONNECT FAILED";
             }
-            
             //string statusQuery = "";
             //var cde = this.ControllerContext.RouteData.Values["Tag"];
             //uidTag = cde.ToString();
-            
+            return View();
+        }
+
+        public async Task<ActionResult> ActiveSim()
+        {
+            DateTimeOffset dateTimeOffset = new DateTimeOffset(DateTime.Now);
+            DateTimeOffset gioCurrent = dateTimeOffset.ToOffset(TimeSpan.FromHours(7));
+
+            client = new FireSharp.FirebaseClient(config);
+            if (client != null)
+            {
+                SetResponse response = client.Set(pathActiveSim, gioCurrent.ToString("dd-MM-yyyy HH:mm:ss"));
+                string[] resultRes = response.Body.Split('"');
+                if(resultRes[1].Trim().Equals(gioCurrent.ToString("dd-MM-yyyy HH:mm:ss")))
+                {
+                    ViewBag.Request = resultRes[1];
+                }
+                else
+                {
+                    ViewBag.Request = "Active Failed";
+                }
+            }
+            else
+            {
+                ViewBag.Request = "CONNECT FAILED";
+            }
             return View();
         }
     }

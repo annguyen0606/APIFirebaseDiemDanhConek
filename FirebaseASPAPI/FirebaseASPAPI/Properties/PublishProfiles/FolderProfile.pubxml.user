@@ -16,10 +16,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/07/2020 08:39:57</publishTime>
     </File>
     <File Include="bin/FirebaseASPAPI.dll">
-      <publishTime>07/07/2020 14:02:10</publishTime>
+      <publishTime>07/09/2020 09:41:58</publishTime>
     </File>
     <File Include="bin/FirebaseASPAPI.pdb">
-      <publishTime>07/07/2020 14:02:10</publishTime>
+      <publishTime>07/09/2020 09:41:58</publishTime>
     </File>
     <File Include="bin/FireSharp.dll">
       <publishTime>07/07/2020 08:39:57</publishTime>
@@ -377,6 +377,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/MainLayout/FrontEndLayout.cshtml">
       <publishTime>07/07/2020 08:39:57</publishTime>
+    </File>
+    <File Include="Views/SetDataRealTime/ActiveSim.cshtml">
+      <publishTime>07/09/2020 09:36:12</publishTime>
     </File>
     <File Include="Views/SetDataRealTime/SetDataFirebase.cshtml">
       <publishTime>07/07/2020 08:39:57</publishTime>
