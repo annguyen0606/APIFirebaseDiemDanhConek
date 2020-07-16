@@ -22,7 +22,7 @@ namespace FirebaseASPAPI.Controllers
         //String pathServer = "https://annguyenhoctap.firebaseio.com/";
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "",
+            AuthSecret = "XYcRpajciWgqrcQNUWovKfSOEUTUFv5hgkyGEvnI",
             //BasePath = "https://annguyenhoctap.firebaseio.com/"
             BasePath = "https://cloud-nfc-proj.firebaseio.com/"
         };

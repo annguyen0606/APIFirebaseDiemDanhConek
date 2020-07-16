@@ -247,4 +247,3 @@ E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\Fireba
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.csproj.CopyComplete
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.dll
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.pdb
-E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.csprojAssemblyReference.cache
