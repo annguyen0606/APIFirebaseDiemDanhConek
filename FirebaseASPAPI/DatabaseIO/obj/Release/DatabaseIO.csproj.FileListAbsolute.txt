@@ -1,0 +1,15 @@
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DatabaseIO.dll.config
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DatabaseIO.dll
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DatabaseIO.pdb
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DatabaseProvider.dll
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\EntityFramework.dll
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\EntityFramework.SqlServer.dll
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DatabaseProvider.pdb
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DatabaseProvider.dll.config
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\EntityFramework.xml
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\EntityFramework.SqlServer.xml
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.csprojAssemblyReference.cache
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.csproj.CoreCompileInputs.cache
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.csproj.CopyComplete
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.dll
+D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.pdb

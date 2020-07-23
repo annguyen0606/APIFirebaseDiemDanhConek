@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EE527D9-B455-4A8B-826E-DE2FEE005D85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DatabaseProvider</RootNamespace>
+    <AssemblyName>DatabaseProvider</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaoGiaCongTho.cs" />
+    <Compile Include="BaoGiaCongThoTam.cs" />
+    <Compile Include="BaoGiaPhuTung.cs" />
+    <Compile Include="BaoGiaPhuTungTam.cs" />
+    <Compile Include="BaoGiaSuaChua.cs" />
+    <Compile Include="BaoGiaSuaChuaTam.cs" />
+    <Compile Include="BoPhan.cs" />
+    <Compile Include="CauHinhDauDoc_CongTy.cs" />
+    <Compile Include="CauHinhThe_Xe.cs" />
+    <Compile Include="CauHinhTichDiem.cs" />
+    <Compile Include="CauHinhTinNhan.cs" />
+    <Compile Include="ChiNhanhNganHang.cs" />
+    <Compile Include="ChiTietBanXe.cs" />
+    <Compile Include="ChiTietNhapPhuKien.cs" />
+    <Compile Include="ChiTietNhapXe.cs" />
+    <Compile Include="ChiTietPhuKien.cs" />
+    <Compile Include="ChiTietXe.cs" />
+    <Compile Include="ChuanDoanXe.cs" />
+    <Compile Include="ChuanDoanXeTam.cs" />
+    <Compile Include="ChucVu.cs" />
+    <Compile Include="CongTho.cs" />
+    <Compile Include="CongThoSoTien.cs" />
+    <Compile Include="CongTy.cs" />
+    <Compile Include="CongtyDoitac.cs" />
+    <Compile Include="CuaHang.cs" />
+    <Compile Include="GioViec.cs" />
+    <Compile Include="HangXeMay.cs" />
+    <Compile Include="HoaDonBanXe.cs" />
+    <Compile Include="HoaDonNhapPhuTung.cs" />
+    <Compile Include="HoaDonNhapXe.cs" />
+    <Compile Include="HopDongTraGop.cs" />
+    <Compile Include="KhachHang.cs" />
+    <Compile Include="KhachHangBaoDuongTruocKy.cs" />
+    <Compile Include="khachhang_cvfont.cs" />
+    <Compile Include="KhoHang.cs" />
+    <Compile Include="KhoNhap.cs" />
+    <Compile Include="KhoXuat.cs" />
+    <Compile Include="KieuNhapXe.cs" />
+    <Compile Include="KieuXe1.cs" />
+    <Compile Include="KyThuatVien_BaoDuong.cs" />
+    <Compile Include="LichSuBaoDuongXe.cs" />
+    <Compile Include="LichSuBaoDuongXeTam.cs" />
+    <Compile Include="LichSuBaoDuongXeTamNotification.cs" />
+    <Compile Include="LichSuBaoDuongXeTamNotificationHistory.cs" />
+    <Compile Include="LichSuBaoDuongXe_2017.cs" />
+    <Compile Include="LichSuBaoDuongXe_bkthangloi_20180409.cs" />
+    <Compile Include="LichSuBaoDuongXe_bkvietan.cs" />
+    <Compile Include="LichSuCapQuota.cs" />
+    <Compile Include="LichSuCapQuotaLog.cs" />
+    <Compile Include="LichSuDatPhuTung.cs" />
+    <Compile Include="LichSuTichDiem.cs" />
+    <Compile Include="LichSuXuatKhoNgoai.cs" />
+    <Compile Include="LoaiHoaDOn.cs" />
+    <Compile Include="LoaiPhieuChi.cs" />
+    <Compile Include="LoaiPhieuThu.cs" />
+    <Compile Include="LoaiTinNhan.cs" />
+    <Compile Include="LoaiTraGop.cs" />
+    <Compile Include="LoaiXe.cs" />
+    <Compile Include="MatKhauEdit.cs" />
+    <Compile Include="MauXe.cs" />
+    <Compile Include="MauXeMay.cs" />
+    <Compile Include="MSSQLAutoCare.cs" />
+    <Compile Include="NganHang.cs" />
+    <Compile Include="NguoiLapPhieu.cs" />
+    <Compile Include="NhaCungCap.cs" />
+    <Compile Include="NhanVien.cs" />
+    <Compile Include="NhaSanXuat.cs" />
+    <Compile Include="NhomKhachHang.cs" />
+    <Compile Include="PhieuChi.cs" />
+    <Compile Include="PhieuThu.cs" />
+    <Compile Include="PhuKien.cs" />
+    <Compile Include="PhuTung.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuotaRemainByDay.cs" />
+    <Compile Include="SMSBirthdayConfig.cs" />
+    <Compile Include="SMSCaringConfig.cs" />
+    <Compile Include="SmsChangOilByKmHistory.cs" />
+    <Compile Include="SMSConfig.cs" />
+    <Compile Include="SMSKiemTraBaoDuongConfig.cs" />
+    <Compile Include="SMSMaintenanceConfig.cs" />
+    <Compile Include="SMSMaintenanceConfigALL.cs" />
+    <Compile Include="SMSMoiThayDauMay_Config.cs" />
+    <Compile Include="SMSMoiThayDau_Config.cs" />
+    <Compile Include="SMSNhanDichVuConfig.cs" />
+    <Compile Include="SMSTuyBienStore.cs" />
+    <Compile Include="Software_Update.cs" />
+    <Compile Include="Software_UpdateHistory.cs" />
+    <Compile Include="sysdiagram.cs" />
+    <Compile Include="TaiKhoanDangNhap.cs" />
+    <Compile Include="TaiKhoanDangNhapWeb.cs" />
+    <Compile Include="TaiKhoanDangNhap_Log.cs" />
+    <Compile Include="TblCongviec.cs" />
+    <Compile Include="tblDiaChiKhachHang.cs" />
+    <Compile Include="tblPhieuTiepNhan.cs" />
+    <Compile Include="TBLTELCO.cs" />
+    <Compile Include="TBLTELCOLOGSY.cs" />
+    <Compile Include="TbltrangthaiBD.cs" />
+    <Compile Include="TestDB.cs" />
+    <Compile Include="ThoDichVu.cs" />
+    <Compile Include="ThoDichVu_GioViec.cs" />
+    <Compile Include="ThoDichVu_TienCongTho.cs" />
+    <Compile Include="ThoDichVu_TienCongTho2.cs" />
+    <Compile Include="ThoDichVu_TienCongThoTam.cs" />
+    <Compile Include="ThongBao.cs" />
+    <Compile Include="ThongBao_audits.cs" />
+    <Compile Include="ThueNgoai.cs" />
+    <Compile Include="ThuongHieu.cs" />
+    <Compile Include="TichDiem.cs" />
+    <Compile Include="TienCongTho.cs" />
+    <Compile Include="TimKiemThongTinKHTheoBienSo.cs" />
+    <Compile Include="TinNhan.cs" />
+    <Compile Include="TinNhan_bak.cs" />
+    <Compile Include="tinnhan_xedaban.cs" />
+    <Compile Include="XeCuaHang.cs" />
+    <Compile Include="XeDaBan.cs" />
+    <Compile Include="xedabanbk_43.cs" />
+    <Compile Include="xedabantest.cs" />
+    <Compile Include="xedaban_99_201801.cs" />
+    <Compile Include="xedaban_bk20180418.cs" />
+    <Compile Include="XeMay.cs" />
+    <Compile Include="XeMayNgoaiHeThong.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

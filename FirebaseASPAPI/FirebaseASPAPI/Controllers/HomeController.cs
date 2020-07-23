@@ -1,5 +1,8 @@
-﻿using System;
+﻿using DatabaseIO;
+using DatabaseProvider;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,7 +13,9 @@ namespace FirebaseASPAPI.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            DBIO db = new DBIO();
+            TimKiemThongTinKHTheoBienSo timKiemThongTinKHTheoBien = db.GetThongTinKHTheoBienSo("99G1-14313", 92); 
+            return View(timKiemThongTinKHTheoBien);
         }
 
         public ActionResult About()

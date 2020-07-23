@@ -15,6 +15,7 @@ namespace FirebaseASPAPI
             routes.MapMvcAttributeRoutes();
             routes.MapRoute("API Firebase", "conek/dulieudiemdanh", new { controller = "SetDataRealTime", action = "SetDataFirebase"});
             routes.MapRoute("API Active Sim", "conek/activesim", new { Controller = "SetDataRealTime", action = "ActiveSim" });
+            routes.MapRoute("AutoCare getInforCustomer", "conek/Autocare/LayThongTinKhach", new { Controller = "SetDataRealTime", action = "GetInforCustomer" });
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
