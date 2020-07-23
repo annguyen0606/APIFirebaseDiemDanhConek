@@ -247,3 +247,14 @@ E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\Fireba
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.csproj.CopyComplete
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.dll
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseIO.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.SqlServer.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseIO.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseIO.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\obj\Debug\FirebaseASPAPI.csprojAssemblyReference.cache

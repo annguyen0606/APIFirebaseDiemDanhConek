@@ -12,12 +12,23 @@ namespace DatabaseIO
     public class DBIO
     {
         MSSQLAutoCare mSSQLAutoCare = new MSSQLAutoCare();
-        public TimKiemThongTinKHTheoBienSo GetThongTinKHTheoBienSo(string bienSo, int idCongTy)
+        public KhachHang GetThongTinKHTheoBienSo(string bienSo, int idCongTy)
         {
-            return mSSQLAutoCare.Database.SqlQuery<TimKiemThongTinKHTheoBienSo>(
-                "select top 1 lsbdx.TenXe, lsbdx.BienSo, lsbdx.SoMay, kh.TenKH, kh.GioiTinh, kh.NgaySinh, kh.DienThoai, kh.Diachi, kh.NgayMua from LichSuBaoDuongXe lsbdx inner join KhachHang kh on lsbdx.IdKhachHang=kh.IdKhachHang WHERE lsbdx.IdCongTy = @idCongTy  and lsbdx.BienSo like @bienSo",
+            LichSuBaoDuongXe lichSuBaoDuongXe = mSSQLAutoCare.Database.SqlQuery<LichSuBaoDuongXe>("select top 1 * from LichSuBaoDuongXe WHERE IdCongTy = @idCongTy  and BienSo like @bienSo",
                 new SqlParameter("@idCongTy", idCongTy),
-                new SqlParameter("@bienSo", "%"+bienSo+"%")).FirstOrDefault();
+                new SqlParameter("@bienSo", "%" + bienSo + "%")).FirstOrDefault();
+            if(lichSuBaoDuongXe == null)
+            {
+                KhachHang khach = new KhachHang();
+                khach.TenKH = "Nguoi La oi";
+                return khach;
+            }
+            else
+            {
+                return mSSQLAutoCare.Database.SqlQuery<KhachHang>(
+                        "select top 1 * from KhachHang WHERE IdKhachHang = @idKhachHang",
+                        new SqlParameter("@idKhachHang", lichSuBaoDuongXe.IdKhachHang)).FirstOrDefault();
+            }
         }
     }
 }

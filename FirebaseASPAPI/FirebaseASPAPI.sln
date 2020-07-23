@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseProvider", "Databas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseIO", "DatabaseIO\DatabaseIO.csproj", "{D2EC8020-5FE7-4A03-8F2E-6DDE3DCD9399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProvider", "DataProvider\DataProvider.csproj", "{2187DEDA-BA26-4BB8-90F4-013266A3264F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D2EC8020-5FE7-4A03-8F2E-6DDE3DCD9399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2EC8020-5FE7-4A03-8F2E-6DDE3DCD9399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2EC8020-5FE7-4A03-8F2E-6DDE3DCD9399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2187DEDA-BA26-4BB8-90F4-013266A3264F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2187DEDA-BA26-4BB8-90F4-013266A3264F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2187DEDA-BA26-4BB8-90F4-013266A3264F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2187DEDA-BA26-4BB8-90F4-013266A3264F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

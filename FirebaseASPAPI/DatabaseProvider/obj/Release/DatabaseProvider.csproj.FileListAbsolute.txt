@@ -9,3 +9,15 @@ D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\o
 D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.csproj.CopyComplete
 D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.dll
 D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\bin\Release\DatabaseProvider.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\bin\Release\DatabaseProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\bin\Release\DatabaseProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\bin\Release\EntityFramework.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\bin\Release\EntityFramework.SqlServer.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\bin\Release\EntityFramework.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\bin\Release\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.csproj.CoreCompileInputs.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.csproj.CopyComplete
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseProvider\obj\Release\DatabaseProvider.csprojAssemblyReference.cache

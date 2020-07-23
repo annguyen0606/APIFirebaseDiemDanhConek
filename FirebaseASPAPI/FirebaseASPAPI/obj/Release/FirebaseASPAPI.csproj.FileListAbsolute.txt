@@ -258,3 +258,13 @@ D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin
 D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.dll.config
 D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.xml
 D:\HocLapTrinhWeb\ASP\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseIO.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.SqlServer.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseIO.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseIO.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.SqlServer.xml
