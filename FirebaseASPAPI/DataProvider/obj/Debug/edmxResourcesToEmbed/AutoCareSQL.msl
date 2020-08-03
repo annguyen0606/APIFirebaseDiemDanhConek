@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Autocare_SercurityModelStoreContainer" CdmEntityContainer="AutoCareSQLSERVER">
+    <FunctionImportMapping FunctionImportName="TimKiemXe" FunctionName="Autocare_SercurityModel.Store.TimKiemXe">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Autocare_SercurityModel.TimKiemXe_Result">
+          <ScalarProperty Name="IdBaoDuong" ColumnName="IdBaoDuong" />
+          <ScalarProperty Name="IdCuaHang" ColumnName="IdCuaHang" />
+          <ScalarProperty Name="IdKhachHang" ColumnName="IdKhachHang" />
+          <ScalarProperty Name="IdCongty" ColumnName="IdCongty" />
+          <ScalarProperty Name="TenXe" ColumnName="TenXe" />
+          <ScalarProperty Name="BienSo" ColumnName="BienSo" />
+          <ScalarProperty Name="Sokhung" ColumnName="Sokhung" />
+          <ScalarProperty Name="SoMay" ColumnName="SoMay" />
+          <ScalarProperty Name="NgayBaoDuong" ColumnName="NgayBaoDuong" />
+          <ScalarProperty Name="NgayGiaoXe" ColumnName="NgayGiaoXe" />
+          <ScalarProperty Name="SoLan" ColumnName="SoLan" />
+          <ScalarProperty Name="SoKm" ColumnName="SoKm" />
+          <ScalarProperty Name="ThayDau" ColumnName="ThayDau" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="YeuCauKH" ColumnName="YeuCauKH" />
+          <ScalarProperty Name="IdThoDuyet" ColumnName="IdThoDuyet" />
+          <ScalarProperty Name="XuatPT" ColumnName="XuatPT" />
+          <ScalarProperty Name="ThayDauMay" ColumnName="ThayDauMay" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="LoaiBaoDuong" ColumnName="LoaiBaoDuong" />
+          <ScalarProperty Name="NhongXich" ColumnName="NhongXich" />
+          <ScalarProperty Name="LamMay" ColumnName="LamMay" />
+          <ScalarProperty Name="isPrinted" ColumnName="isPrinted" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="GIOVAOXE" ColumnName="GIOVAOXE" />
+          <ScalarProperty Name="TGDUKIEN" ColumnName="TGDUKIEN" />
+          <ScalarProperty Name="TTBAODUONG" ColumnName="TTBAODUONG" />
+          <ScalarProperty Name="GIOHOANTHANH" ColumnName="GIOHOANTHANH" />
+          <ScalarProperty Name="CVIEC" ColumnName="CVIEC" />
+          <ScalarProperty Name="BANNANG" ColumnName="BANNANG" />
+          <ScalarProperty Name="KYTHUATVIEN" ColumnName="KYTHUATVIEN" />
+          <ScalarProperty Name="NGAYKHIEUNAI" ColumnName="NGAYKHIEUNAI" />
+          <ScalarProperty Name="NOIDUNGKHIEUNAI" ColumnName="NOIDUNGKHIEUNAI" />
+          <ScalarProperty Name="BIENPHAP" ColumnName="BIENPHAP" />
+          <ScalarProperty Name="KETQUAKN" ColumnName="KETQUAKN" />
+          <ScalarProperty Name="idReader" ColumnName="idReader" />
+          <ScalarProperty Name="idTag" ColumnName="idTag" />
+          <ScalarProperty Name="YeuCauKhachHang" ColumnName="YeuCauKhachHang" />
+          <ScalarProperty Name="TuVanSuaChua" ColumnName="TuVanSuaChua" />
+          <ScalarProperty Name="IdKhachHang1" ColumnName="IdKhachHang1" />
+          <ScalarProperty Name="IdCongty1" ColumnName="IdCongty1" />
+          <ScalarProperty Name="HoKH" ColumnName="HoKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+          <ScalarProperty Name="MaNhomKH" ColumnName="MaNhomKH" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="NgayMua" ColumnName="NgayMua" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="SoSBH" ColumnName="SoSBH" />
+          <ScalarProperty Name="LoaiKH" ColumnName="LoaiKH" />
+          <ScalarProperty Name="KhachDenTu" ColumnName="KhachDenTu" />
+          <ScalarProperty Name="NhanTinThayDau" ColumnName="NhanTinThayDau" />
+          <ScalarProperty Name="ChiNhanTinThayDau" ColumnName="ChiNhanTinThayDau" />
+          <ScalarProperty Name="NgheNghiep" ColumnName="NgheNghiep" />
+          <ScalarProperty Name="NhanTinThayBugi" ColumnName="NhanTinThayBugi" />
+          <ScalarProperty Name="NhanTinThayDauHopSo" ColumnName="NhanTinThayDauHopSo" />
+          <ScalarProperty Name="NhanTinThayDayDai" ColumnName="NhanTinThayDayDai" />
+          <ScalarProperty Name="NhanTinThaylocGio" ColumnName="NhanTinThaylocGio" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

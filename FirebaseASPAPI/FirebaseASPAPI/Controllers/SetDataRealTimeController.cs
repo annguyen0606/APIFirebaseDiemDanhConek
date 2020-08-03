@@ -19,6 +19,7 @@ namespace FirebaseASPAPI.Controllers
         String pathDuLieuDiemDanh = "Conek/DuLieuDiemDanh/";
         String pathDanhSachNhanVien = "Conek/DanhSachNhanVien/";
         String pathActiveSim = "ActiveSim/Active/";
+        String pathDuLieuTest = "DulieuTest/";
         //String pathServer = "https://annguyenhoctap.firebaseio.com/";
         IFirebaseConfig config = new FirebaseConfig
         {
@@ -66,9 +67,6 @@ namespace FirebaseASPAPI.Controllers
             {
                 ViewBag.UIDTag = "CONNECT FAILED";
             }
-            //string statusQuery = "";
-            //var cde = this.ControllerContext.RouteData.Values["Tag"];
-            //uidTag = cde.ToString();
             return View();
         }
 
@@ -98,6 +96,29 @@ namespace FirebaseASPAPI.Controllers
             return View();
         }
 
+        public async Task<ActionResult> DuLieuTest(string uidTag, string money)
+        {
+            DateTimeOffset dateTimeOffset = new DateTimeOffset(DateTime.Now);
+            DateTimeOffset gioCurrent = dateTimeOffset.ToOffset(TimeSpan.FromHours(7));
 
+            client = new FireSharp.FirebaseClient(config);
+            if (client != null)
+            {
+                PushResponse response = client.Push(pathDuLieuTest + uidTag + "/" + gioCurrent.ToString("yyyy-MM-dd"), gioCurrent.ToString("HH:mm:ss") + "," + money);
+                if (String.IsNullOrEmpty(response.Result.name.ToString()))
+                {
+                    ViewBag.UIDTag = "INSERT FAILED";
+                }
+                else
+                {
+                    ViewBag.UIDTag = response.Result.name.ToString();
+                }
+            }
+            else
+            {
+                ViewBag.UIDTag = "CONNECT FAILED";
+            }
+            return View();
+        }
     }
 }

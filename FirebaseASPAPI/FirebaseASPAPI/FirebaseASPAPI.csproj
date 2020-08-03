@@ -253,6 +253,7 @@
     <Content Include="Views\SetDataRealTime\SetDataFirebase.cshtml" />
     <Content Include="Views\MainLayout\FrontEndLayout.cshtml" />
     <Content Include="Views\SetDataRealTime\ActiveSim.cshtml" />
+    <Content Include="Views\SetDataRealTime\DuLieuTest.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

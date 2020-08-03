@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Autocare_SercurityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AutoCareSQLSERVER" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="TimKiemXe" ReturnType="Collection(Autocare_SercurityModel.TimKiemXe_Result)">
+      <Parameter Name="bienSo" Mode="In" Type="String" />
+      <Parameter Name="IdCongTy" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="TimKiemXe_Result">
+    <Property Type="Int64" Name="IdBaoDuong" Nullable="false" />
+    <Property Type="Int64" Name="IdCuaHang" Nullable="true" />
+    <Property Type="Int64" Name="IdKhachHang" Nullable="true" />
+    <Property Type="Int64" Name="IdCongty" Nullable="true" />
+    <Property Type="String" Name="TenXe" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="BienSo" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Sokhung" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="SoMay" Nullable="true" MaxLength="30" />
+    <Property Type="DateTime" Name="NgayBaoDuong" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="NgayGiaoXe" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="SoLan" Nullable="true" />
+    <Property Type="Int32" Name="SoKm" Nullable="true" />
+    <Property Type="Boolean" Name="ThayDau" Nullable="true" />
+    <Property Type="Boolean" Name="TrangThai" Nullable="true" />
+    <Property Type="String" Name="YeuCauKH" Nullable="true" MaxLength="500" />
+    <Property Type="Int32" Name="IdThoDuyet" Nullable="true" />
+    <Property Type="Boolean" Name="XuatPT" Nullable="true" />
+    <Property Type="Boolean" Name="ThayDauMay" Nullable="true" />
+    <Property Type="String" Name="GhiChu" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="LoaiBaoDuong" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="NhongXich" Nullable="true" />
+    <Property Type="Boolean" Name="LamMay" Nullable="true" />
+    <Property Type="Boolean" Name="isPrinted" Nullable="true" />
+    <Property Type="Boolean" Name="Type" Nullable="true" />
+    <Property Type="DateTime" Name="GIOVAOXE" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="TGDUKIEN" Nullable="true" />
+    <Property Type="Int32" Name="TTBAODUONG" Nullable="true" />
+    <Property Type="DateTime" Name="GIOHOANTHANH" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="CVIEC" Nullable="true" />
+    <Property Type="String" Name="BANNANG" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="KYTHUATVIEN" Nullable="true" MaxLength="500" />
+    <Property Type="DateTime" Name="NGAYKHIEUNAI" Nullable="true" Precision="23" />
+    <Property Type="String" Name="NOIDUNGKHIEUNAI" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="BIENPHAP" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="KETQUAKN" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="idReader" Nullable="true" MaxLength="300" />
+    <Property Type="String" Name="idTag" Nullable="true" MaxLength="200" />
+    <Property Type="String" Name="YeuCauKhachHang" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="TuVanSuaChua" Nullable="true" MaxLength="500" />
+    <Property Type="Int64" Name="IdKhachHang1" Nullable="false" />
+    <Property Type="Int64" Name="IdCongty1" Nullable="true" />
+    <Property Type="String" Name="HoKH" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TenKH" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="GioiTinh" Nullable="true" MaxLength="5" />
+    <Property Type="DateTime" Name="NgaySinh" Nullable="true" Precision="23" />
+    <Property Type="String" Name="DienThoai" Nullable="true" MaxLength="100" />
+    <Property Type="Int64" Name="MaNhomKH" Nullable="true" />
+    <Property Type="String" Name="Diachi" Nullable="true" MaxLength="350" />
+    <Property Type="DateTime" Name="NgayMua" Nullable="true" Precision="23" />
+    <Property Type="String" Name="CMND" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="SoSBH" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="LoaiKH" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="KhachDenTu" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="NhanTinThayDau" Nullable="true" />
+    <Property Type="Boolean" Name="ChiNhanTinThayDau" Nullable="true" />
+    <Property Type="String" Name="NgheNghiep" Nullable="true" MaxLength="200" />
+    <Property Type="Boolean" Name="NhanTinThayBugi" Nullable="true" />
+    <Property Type="Boolean" Name="NhanTinThayDauHopSo" Nullable="true" />
+    <Property Type="Boolean" Name="NhanTinThayDayDai" Nullable="true" />
+    <Property Type="Boolean" Name="NhanTinThaylocGio" Nullable="true" />
+  </ComplexType>
+</Schema>

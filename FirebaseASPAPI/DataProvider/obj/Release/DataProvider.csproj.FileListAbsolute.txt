@@ -1,0 +1,12 @@
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Release\DataProvider.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Release\DataProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Release\DataProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Release\EntityFramework.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Release\EntityFramework.SqlServer.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Release\EntityFramework.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Release\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Release\DataProvider.csprojAssemblyReference.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Release\DataProvider.csproj.CoreCompileInputs.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Release\DataProvider.csproj.CopyComplete
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Release\DataProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Release\DataProvider.pdb

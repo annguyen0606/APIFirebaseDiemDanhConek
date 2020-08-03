@@ -13,3 +13,6 @@ E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Debug\DatabaseIO
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Debug\DatabaseIO.csproj.CopyComplete
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Debug\DatabaseIO.dll
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Debug\DatabaseIO.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Debug\DataProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Debug\DataProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Debug\DataProvider.dll.config

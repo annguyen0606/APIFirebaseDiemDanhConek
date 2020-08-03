@@ -59,6 +59,10 @@
       <Project>{7ee527d9-b455-4a8b-826e-de2fee005d85}</Project>
       <Name>DatabaseProvider</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataProvider\DataProvider.csproj">
+      <Project>{2187deda-ba26-4bb8-90f4-013266a3264f}</Project>
+      <Name>DataProvider</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

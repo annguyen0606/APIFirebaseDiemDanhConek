@@ -28,3 +28,6 @@ E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\Database
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.csproj.CopyComplete
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.dll
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\obj\Release\DatabaseIO.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DataProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DataProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DatabaseIO\bin\Release\DataProvider.dll.config

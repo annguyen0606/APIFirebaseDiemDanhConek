@@ -1,0 +1,11 @@
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Debug\DataProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Debug\DataProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Debug\DataProvider.csproj.CoreCompileInputs.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Debug\DataProvider.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Debug\DataProvider.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Debug\DataProvider.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Debug\EntityFramework.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Debug\EntityFramework.SqlServer.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Debug\EntityFramework.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\bin\Debug\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProvider\obj\Debug\DataProvider.csproj.CopyComplete
