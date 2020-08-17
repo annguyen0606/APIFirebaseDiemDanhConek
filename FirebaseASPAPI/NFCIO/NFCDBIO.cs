@@ -16,7 +16,9 @@ namespace NFCIO
             ThongTinNguoiThan thongTinNguoiThan = nfcDB.Database.SqlQuery<ThongTinNguoiThan>("Select *from dbo.ThongTinNguoiThan where uid = @UID and malop = @MaLop",
                 new SqlParameter("@UID", uid),
                 new SqlParameter("@MaLop", lop)).FirstOrDefault();
-            return nfcDB.Database.ExecuteSqlCommand("Update dbo.ThongTinNopTien SET trangthai = '1' where mahs = @MaHs and malop = @MaLop and thang like @Thang",
+            
+            return nfcDB.Database.ExecuteSqlCommand("IF EXISTS (SELECT *FROM dbo.ThongTinNopTien where mahs = @MaHs and malop = @MaLop and trangthai = '0') " +
+                "Update dbo.ThongTinNopTien SET trangthai = '1' where mahs = @MaHs and malop = @MaLop and thang like @Thang",
                 new SqlParameter("@MaHs",thongTinNguoiThan.mahs),
                 new SqlParameter("@MaLop",lop),
                 new SqlParameter("Thang","%"+thang+"%"));

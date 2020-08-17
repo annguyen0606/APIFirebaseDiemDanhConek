@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8E13F9E-B001-462E-ACC0-A66493BDEEBF}</ProjectGuid>
+    <ProjectGuid>{912848A1-ABD1-4CBD-BEBA-AA030FAB1990}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataProviderNFC</RootNamespace>

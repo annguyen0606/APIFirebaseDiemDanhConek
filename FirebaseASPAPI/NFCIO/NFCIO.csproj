@@ -55,14 +55,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataProviderNFC\DataProviderNFC.csproj">
-      <Project>{d8e13f9e-b001-462e-acc0-a66493bdeebf}</Project>
-      <Name>DataProviderNFC</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataProviderNFC\DataProviderNFC.csproj">
+      <Project>{912848a1-abd1-4cbd-beba-aa030fab1990}</Project>
+      <Name>DataProviderNFC</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -283,7 +283,7 @@
       <Name>DatabaseProvider</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataProviderNFC\DataProviderNFC.csproj">
-      <Project>{d8e13f9e-b001-462e-acc0-a66493bdeebf}</Project>
+      <Project>{912848a1-abd1-4cbd-beba-aa030fab1990}</Project>
       <Name>DataProviderNFC</Name>
     </ProjectReference>
     <ProjectReference Include="..\NFCIO\NFCIO.csproj">
