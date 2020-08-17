@@ -11,11 +11,9 @@ namespace FirebaseASPAPI.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index(String bienSo, int IdCongTy)
+        public ActionResult Index()
         {
-            DBIO db = new DBIO();
-            KhachHang timKiemThongTinKHTheoBien = db.GetThongTinKHTheoBienSo(bienSo, IdCongTy); 
-            return View(timKiemThongTinKHTheoBien);
+            return View();
         }
 
         public ActionResult About()

@@ -254,6 +254,8 @@
     <Content Include="Views\MainLayout\FrontEndLayout.cshtml" />
     <Content Include="Views\SetDataRealTime\ActiveSim.cshtml" />
     <Content Include="Views\SetDataRealTime\DuLieuTest.cshtml" />
+    <Content Include="Views\SetDataRealTime\KindergartenTakePupil.cshtml" />
+    <Content Include="Views\SetDataRealTime\GetMoney.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -279,6 +281,14 @@
     <ProjectReference Include="..\DatabaseProvider\DatabaseProvider.csproj">
       <Project>{7ee527d9-b455-4a8b-826e-de2fee005d85}</Project>
       <Name>DatabaseProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProviderNFC\DataProviderNFC.csproj">
+      <Project>{d8e13f9e-b001-462e-acc0-a66493bdeebf}</Project>
+      <Name>DataProviderNFC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NFCIO\NFCIO.csproj">
+      <Project>{f859b4bc-a047-4671-900f-78b05d5b673d}</Project>
+      <Name>NFCIO</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

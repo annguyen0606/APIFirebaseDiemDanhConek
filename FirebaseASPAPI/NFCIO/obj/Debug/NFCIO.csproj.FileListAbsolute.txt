@@ -1,0 +1,15 @@
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\NFCIO.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\NFCIO.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\NFCIO.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\DataProviderNFC.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\EntityFramework.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\EntityFramework.SqlServer.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\DataProviderNFC.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\DataProviderNFC.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\EntityFramework.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\bin\Debug\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\obj\Debug\NFCIO.csprojAssemblyReference.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\obj\Debug\NFCIO.csproj.CoreCompileInputs.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\obj\Debug\NFCIO.csproj.CopyComplete
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\obj\Debug\NFCIO.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\NFCIO\obj\Debug\NFCIO.pdb

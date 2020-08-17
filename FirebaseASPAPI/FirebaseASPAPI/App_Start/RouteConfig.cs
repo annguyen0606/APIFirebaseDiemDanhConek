@@ -17,6 +17,8 @@ namespace FirebaseASPAPI
             routes.MapRoute("API Active Sim", "conek/activesim", new { Controller = "SetDataRealTime", action = "ActiveSim" });
             routes.MapRoute("API Test", "conek/dulieutest", new { Controller = "SetDataRealTime", action = "DuLieuTest" });
             routes.MapRoute("AutoCare getInforCustomer", "conek/Autocare/LayThongTinKhach", new { Controller = "SetDataRealTime", action = "GetInforCustomer" });
+            routes.MapRoute("KinderGarten Take Pupil","conek/kindergarten/takepupil",new { Controller = "SetDataRealTime", action = "KindergartenTakePupil" });
+            routes.MapRoute("KinderGarten Receive Money", "conek/kindergarten/getmoney", new { Controller = "SetDataRealTime", action = "GetMoney" });
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
