@@ -85,7 +85,7 @@ namespace FirebaseASPAPI.Controllers
                 string[] resultRes = response.Body.Split('"');
                 if(resultRes[1].Trim().Equals(gioCurrent.ToString("dd-MM-yyyy HH:mm:ss")))
                 {
-                    ViewBag.Request = resultRes[1];
+                    ViewBag.Request = "Success";
                 }
                 else
                 {
@@ -149,27 +149,28 @@ namespace FirebaseASPAPI.Controllers
                 string[] resultRes = response.Body.Split('"');
                 if (resultRes[1].Trim().Equals(gioCurrent.ToString("HH:mm:ss") + "," + soPhutMuon))
                 {
-                    ViewBag.Request = resultRes[1];
+                    ViewBag.Request = "Success";
                 }
                 else
                 {
-                    ViewBag.Request = "Active Failed";
+                    ViewBag.Request = "ActiveFailed";
                 }
             }
             else
             {
-                ViewBag.UIDTag = "CONNECT FAILED";
+                ViewBag.UIDTag = "CONNECTFAILED";
             }
             return View(ViewBag);
         }
 
-        public async Task<ActionResult> GetMoney(string uidTag, string lop)
+        public async Task<ActionResult> GetMoney(string uidTag, string lop, string money, string magv)
         {
             DateTimeOffset dateTimeOffset = new DateTimeOffset(DateTime.Now);
             DateTimeOffset gioCurrent = dateTimeOffset.ToOffset(TimeSpan.FromHours(7));
             NFCDBIO db = new NFCDBIO();
-            int i = db.InsertNopTien(uidTag, lop, gioCurrent.ToString("yyyy-MM"));
-            if(i == 1)
+            int i = db.InsertNopTien(uidTag, lop, gioCurrent.ToString("yyyy-MM"),money,magv);
+            ViewBag.Request = i.ToString();
+            if (i == 1)
             {
                 client = new FireSharp.FirebaseClient(config);
                 if (client != null)
@@ -182,17 +183,37 @@ namespace FirebaseASPAPI.Controllers
                     }
                     else
                     {
-                        ViewBag.Request = "Active Failed";
+                        ViewBag.Request = "ActiveFailed";
                     }
                 }
                 else
                 {
-                    ViewBag.UIDTag = "CONNECT FAILED";
+                    ViewBag.UIDTag = "CONNECTFAILED";
+                }
+            }else if(i == 2)
+            {
+                client = new FireSharp.FirebaseClient(config);
+                if (client != null)
+                {
+                    SetResponse response = client.Set(pathKindergartenGetMoney + lop + "/" + gioCurrent.ToString("yyyy-MM") + "/" + uidTag, gioCurrent.ToString("HH:mm:ss yyyy-MM-dd"));
+                    string[] resultRes = response.Body.Split('"');
+                    if (resultRes[1].Trim().Equals(gioCurrent.ToString("HH:mm:ss yyyy-MM-dd")))
+                    {
+                        ViewBag.Request = "Dontenoughmoney";
+                    }
+                    else
+                    {
+                        ViewBag.Request = "ActiveFailed";
+                    }
+                }
+                else
+                {
+                    ViewBag.UIDTag = "CONNECTFAILED";
                 }
             }
             else
             {
-                ViewBag.Request = "Haven't Data";
+                ViewBag.Request = "HaventData";
             }
             return View(ViewBag);
         }

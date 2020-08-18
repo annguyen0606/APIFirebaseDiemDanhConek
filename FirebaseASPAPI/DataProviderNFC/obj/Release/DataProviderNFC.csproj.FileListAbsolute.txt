@@ -1,0 +1,12 @@
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\bin\Release\DataProviderNFC.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\bin\Release\DataProviderNFC.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\bin\Release\DataProviderNFC.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\bin\Release\EntityFramework.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\bin\Release\EntityFramework.SqlServer.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\bin\Release\EntityFramework.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\bin\Release\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\obj\Release\DataProviderNFC.csprojAssemblyReference.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\obj\Release\DataProviderNFC.csproj.CoreCompileInputs.cache
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\obj\Release\DataProviderNFC.csproj.CopyComplete
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\obj\Release\DataProviderNFC.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\DataProviderNFC\obj\Release\DataProviderNFC.pdb

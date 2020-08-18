@@ -268,3 +268,9 @@ E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProv
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DatabaseProvider.dll.config
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.xml
 E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\EntityFramework.SqlServer.xml
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DataProviderNFC.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\NFCIO.dll
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DataProviderNFC.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\DataProviderNFC.dll.config
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\NFCIO.pdb
+E:\AppC#\APIFirebaseDiemDanhConek\FirebaseASPAPI\FirebaseASPAPI\bin\NFCIO.dll.config

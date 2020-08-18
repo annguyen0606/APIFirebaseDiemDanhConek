@@ -58,6 +58,7 @@
     <Compile Include="ThongTinHocSinh.cs" />
     <Compile Include="ThongTinLop.cs" />
     <Compile Include="ThongTinNguoiThan.cs" />
+    <Compile Include="ThongTinNopTien.cs" />
     <Compile Include="ThongTinTruong.cs" />
   </ItemGroup>
   <ItemGroup>

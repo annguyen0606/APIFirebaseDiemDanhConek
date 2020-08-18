@@ -17,6 +17,7 @@ namespace DataProviderNFC
         public virtual DbSet<ThongTinGiaoVien> ThongTinGiaoViens { get; set; }
         public virtual DbSet<ThongTinHocSinh> ThongTinHocSinhs { get; set; }
         public virtual DbSet<ThongTinLop> ThongTinLops { get; set; }
+        public virtual DbSet<ThongTinNopTien> ThongTinNopTiens { get; set; }
         public virtual DbSet<ThongTinTruong> ThongTinTruongs { get; set; }
         public virtual DbSet<ThongTinNguoiThan> ThongTinNguoiThans { get; set; }
 
@@ -60,6 +61,30 @@ namespace DataProviderNFC
 
             modelBuilder.Entity<ThongTinLop>()
                 .Property(e => e.matruong)
+                .IsFixedLength();
+
+            modelBuilder.Entity<ThongTinNopTien>()
+                .Property(e => e.mahs)
+                .IsFixedLength();
+
+            modelBuilder.Entity<ThongTinNopTien>()
+                .Property(e => e.magv)
+                .IsFixedLength();
+
+            modelBuilder.Entity<ThongTinNopTien>()
+                .Property(e => e.sotien)
+                .IsFixedLength();
+
+            modelBuilder.Entity<ThongTinNopTien>()
+                .Property(e => e.trangthai)
+                .IsFixedLength();
+
+            modelBuilder.Entity<ThongTinNopTien>()
+                .Property(e => e.malop)
+                .IsFixedLength();
+
+            modelBuilder.Entity<ThongTinNopTien>()
+                .Property(e => e.sotienreal)
                 .IsFixedLength();
 
             modelBuilder.Entity<ThongTinTruong>()

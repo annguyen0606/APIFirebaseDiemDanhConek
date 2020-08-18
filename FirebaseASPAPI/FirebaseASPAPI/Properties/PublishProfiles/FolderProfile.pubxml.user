@@ -16,22 +16,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2020 16:31:18</publishTime>
     </File>
     <File Include="bin/DatabaseIO.dll">
-      <publishTime>08/03/2020 09:46:10</publishTime>
+      <publishTime>08/18/2020 11:28:32</publishTime>
     </File>
     <File Include="bin/DatabaseIO.dll.config">
       <publishTime>07/29/2020 16:31:18</publishTime>
     </File>
     <File Include="bin/DatabaseIO.pdb">
-      <publishTime>08/03/2020 09:46:10</publishTime>
+      <publishTime>08/18/2020 11:28:32</publishTime>
     </File>
     <File Include="bin/DatabaseProvider.dll">
-      <publishTime>08/03/2020 09:46:10</publishTime>
+      <publishTime>08/18/2020 11:28:32</publishTime>
     </File>
     <File Include="bin/DatabaseProvider.dll.config">
       <publishTime>07/29/2020 16:31:18</publishTime>
     </File>
     <File Include="bin/DatabaseProvider.pdb">
-      <publishTime>08/03/2020 09:46:10</publishTime>
+      <publishTime>08/18/2020 11:28:32</publishTime>
+    </File>
+    <File Include="bin/DataProviderNFC.dll">
+      <publishTime>08/18/2020 11:28:32</publishTime>
+    </File>
+    <File Include="bin/DataProviderNFC.dll.config">
+      <publishTime>08/18/2020 10:17:34</publishTime>
+    </File>
+    <File Include="bin/DataProviderNFC.pdb">
+      <publishTime>08/18/2020 11:28:32</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>07/29/2020 16:31:19</publishTime>
@@ -40,10 +49,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2020 16:31:19</publishTime>
     </File>
     <File Include="bin/FirebaseASPAPI.dll">
-      <publishTime>08/03/2020 09:55:21</publishTime>
+      <publishTime>08/18/2020 15:33:01</publishTime>
     </File>
     <File Include="bin/FirebaseASPAPI.pdb">
-      <publishTime>08/03/2020 09:55:21</publishTime>
+      <publishTime>08/18/2020 15:33:01</publishTime>
     </File>
     <File Include="bin/FireSharp.dll">
       <publishTime>07/29/2020 16:31:19</publishTime>
@@ -110,6 +119,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>07/29/2020 16:31:20</publishTime>
+    </File>
+    <File Include="bin/NFCIO.dll">
+      <publishTime>08/18/2020 11:28:32</publishTime>
+    </File>
+    <File Include="bin/NFCIO.dll.config">
+      <publishTime>08/17/2020 10:02:39</publishTime>
+    </File>
+    <File Include="bin/NFCIO.pdb">
+      <publishTime>08/18/2020 11:28:32</publishTime>
     </File>
     <File Include="bin/Okta.AspNet.Abstractions.dll">
       <publishTime>07/29/2020 16:31:20</publishTime>
@@ -397,7 +415,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2020 16:31:18</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/29/2020 16:31:18</publishTime>
+      <publishTime>08/17/2020 10:36:13</publishTime>
     </File>
     <File Include="Views/MainLayout/FrontEndLayout.cshtml">
       <publishTime>07/29/2020 16:31:18</publishTime>
@@ -407,6 +425,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/SetDataRealTime/DuLieuTest.cshtml">
       <publishTime>08/03/2020 09:43:59</publishTime>
+    </File>
+    <File Include="Views/SetDataRealTime/GetMoney.cshtml">
+      <publishTime>08/17/2020 10:44:47</publishTime>
+    </File>
+    <File Include="Views/SetDataRealTime/KindergartenTakePupil.cshtml">
+      <publishTime>08/17/2020 09:21:01</publishTime>
     </File>
     <File Include="Views/SetDataRealTime/SetDataFirebase.cshtml">
       <publishTime>07/29/2020 16:31:18</publishTime>
@@ -424,7 +448,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2020 16:31:18</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/03/2020 09:46:11</publishTime>
+      <publishTime>08/18/2020 11:28:33</publishTime>
     </File>
   </ItemGroup>
 </Project>
